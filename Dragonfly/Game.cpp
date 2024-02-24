@@ -4,7 +4,7 @@
 #include "ResourceManager.h"
 
 // Game includes.
-#include "TestStart.h"
+#include "GameStart.h"
 #include "TestStar.h"
 
 // Function prototypes.
@@ -38,26 +38,19 @@ int main(int argc, char* argv[]) {
 
 // Load resources (sprites, sound effects, music).
 void loadResources(void) {
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/saucer-spr.txt", "saucer");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/ship-spr.txt", "ship");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/bullet-spr.txt", "bullet");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/explosion-spr.txt", "explosion");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/gamestart-spr.txt", "gamestart");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/gameover-spr.txt", "gameover");
-    RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/fire.wav", "fire");
-    RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/explode.wav", "explode");
-    RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/nuke.wav", "nuke");
-    RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/game-over.wav", "game over");
-    RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/start-music.wav", "start music");
+    // RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/saucer-spr.txt", "saucer");
+    
+    RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/mixkit - skateboard - idle - movement - 3094.wav", "day transition");
+    RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/glass - of - wine - 143532.mp3", "glass 'o wine");
 }
 
 // Populate world with some objects.
 void populateWorld(void) {
 
     // Spawn some Stars.
-    for (int i = 0; i < 16; i++)
-        new TestStar;
+    // for (int i = 0; i < 16; i++)
+    //    new TestStar;
 
     // Create GameStart object.
-    new TestStart();
+    new GameStart();
 }

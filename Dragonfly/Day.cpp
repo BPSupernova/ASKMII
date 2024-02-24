@@ -3,6 +3,7 @@
 #include "LogManager.h"
 
 #include "Day.h"
+#include "LegacyResults.h"
 
 Day::Day(int day) {
     day_index = day;
@@ -21,7 +22,7 @@ Day::Day(int day) {
 
 Day::~Day() {
     if (day_index == 1) {
-        // new LegacyResults; 
+        new LegacyResults; 
     } else {
         new Day(day_index--); // Create the next Day
     }
