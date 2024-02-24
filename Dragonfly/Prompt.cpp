@@ -5,7 +5,7 @@
 #include "Prompt.h"
 
 Prompt::Prompt() {
-	std::string prompt = generatePrompt();
+	std::string prompt = "What will you do today?";
 	setPrompt(prompt);
 }
 

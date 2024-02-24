@@ -19,7 +19,7 @@ private:
 	// All other necessary attributes covered in base Object class (mainly in reference to Sprite)
 
 	void startDay(); // A method that moves / animates text from the left of the screen to the center of the screen
-	void endDay(); // A method that cleans up the display once the choice has been made
+	void endDay(); // A method that cleans up the display once the choice has been made 
 
 	void makeChoice(int code); // Makes a choice and updates PointsSystem based on player input
 

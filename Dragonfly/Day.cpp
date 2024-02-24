@@ -9,7 +9,67 @@ Day::Day(int day) {
     day_index = day;
     switch (day) { // Set the Day's Sprite based on what day it is
     case 21:
-        setSprite("tv");
+        setSprite("temp");
+        break;
+    case 20:
+        setSprite("temp");
+        break;
+    case 19:
+        setSprite("temp");
+        break;
+    case 18:
+        setSprite("temp");
+        break;
+    case 17:
+        setSprite("temp");
+        break;
+    case 16:
+        setSprite("temp");
+        break;
+    case 15:
+        setSprite("temp");
+        break;
+    case 14:
+        setSprite("temp");
+        break;
+    case 13:
+        setSprite("temp");
+        break;
+    case 12:
+        setSprite("temp");
+        break;
+    case 11:
+        setSprite("temp");
+        break;
+    case 10:
+        setSprite("temp");
+        break;
+    case 9:
+        setSprite("temp");
+        break;
+    case 8:
+        setSprite("temp");
+        break;
+    case 7:
+        setSprite("temp");
+        break;
+    case 6:
+        setSprite("temp");
+        break;
+    case 5:
+        setSprite("temp");
+        break;
+    case 4:
+        setSprite("temp");
+        break;
+    case 3:
+        setSprite("temp");
+        break;
+    case 2:
+        setSprite("temp");
+        break;
+    case 1:
+        setSprite("temp");
         break;
     default:
         LM.getInstance().writeLog("There is no sprite to set for this Day\n");
@@ -21,6 +81,9 @@ Day::Day(int day) {
 }
 
 Day::~Day() {
+
+    endDay();
+
     if (day_index == 1) {
         new LegacyResults; 
     } else {
@@ -83,6 +146,15 @@ Choice Day::getChoice() const {
 }
 
 void Day::startDay() {
+    DayNumDisplay day_num_display = *(new DayNumDisplay); 
+    day_num_display.setDisplayedValue(day_index);
+
+    Prompt prompt = *(new Prompt); // Should already have prompt created in being constructed
+
+    setDayNumDisplay(day_num_display);
+    setPrompt(prompt);
+
+    // Create new set of Choices
     // Move the DayNumDisplay closer to Top Center
     // Move the Prompt closer to right under DayNumDisplay
     // Move the Choice closer to inbetween (CENTER-CENTER) and (BOTTOM-CENTER)
@@ -90,6 +162,8 @@ void Day::startDay() {
 }
 
 void Day::endDay() {
+    WM.MarkForDelete(&(getPrompt()));
+    WM.MarkForDelete(&(getDayNumDisplay()));
     // Maybe delete choice object and then everything else, then delete this item somehow
 }
 

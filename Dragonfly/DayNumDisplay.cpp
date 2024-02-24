@@ -8,12 +8,12 @@ DayNumDisplay::DayNumDisplay() {
     setBorder(false);
 }
 
-void DayNumDisplay::setDisplayedValue(Timekeeper tk) {
-    if (tk.getTheDaysLeft() > 21 || tk.getTheDaysLeft() < 1) {
+void DayNumDisplay::setDisplayedValue(int days) {
+    if (days > 21 || days < 1) {
         setValue(21);
     }
     else {
-        setValue(tk.getTheDaysLeft());
+        setValue(days);
     }
 }
 
