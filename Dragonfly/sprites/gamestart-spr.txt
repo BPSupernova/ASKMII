@@ -1,23 +1,49 @@
 2
 70
-9
+22
 15
-yellow
-     _____                               _____ __                __   
-    / ___/____ ___  __________  _____   / ___// /_  ____  ____  / /_  
-    \__ \/ __ `/ / / / ___/ _ \/ ___/   \__ \/ __ \/ __ \/ __ \/ __/  
-   ___/ / /_/ / /_/ / /__/  __/ /      ___/ / / / / /_/ / /_/ / /_    
-  /____/\__,_/\__,_/\___/\___/_/      /____/_/ /_/\____/\____/\__/    
+red
+	  C)ccc  h)                                                  
+	 C)   cc h)                                                  
+	C)       h)HHHH   o)OOO   o)OOO   s)SSSS e)EEEEE             
+	C)       h)   HH o)   OO o)   OO s)SSSS  e)EEEE              
+ 	 C)   cc h)   HH o)   OO o)   OO      s) e)                  
+  	  C)ccc  h)   HH  o)OOO   o)OOO  s)SSSS   e)EEEE             
+	Y)    yy                                                     
+ 	 Y)  yy                                                      
+  	  Y)yy    o)OOO  u)   UU  r)RRR                              
+   	   Y)    o)   OO u)   UU r)   RR                             
+   	   Y)    o)   OO u)   UU r)                                  
+   	   Y)     o)OOO   u)UUU  r)                                  
+	F)ffffff                                            l)L  l)L 
+	F)                                                   l)   l) 
+	F)fffff  a)AAAA   r)RRR  e)EEEEE w)      WW e)EEEEE  l)   l) 
+	F)        a)AAA  r)   RR e)EEEE  w)  WW  WW e)EEEE   l)   l) 
+	F)       a)   A  r)      e)      w)  WW  WW e)       l)   l) 
+	F)        a)AAAA r)       e)EEEE  w)WW WWW   e)EEEE l)LL l)LL    
                                                                       
-     Controls: 'w'/'s' moves, Mouse fires, Space nukes, 'q' quits     
+     So begins your last 21 days on Earth. Pick your choices with WASD     
                                                                       
                     Press 'p' to play, 'q' to quit                    
-     _____                               _____ __                __   
-    / ___/____ ___  __________  _____   / ___// /_  ____  ____  / /_  
-    \__ \/ __ `/ / / / ___/ _ \/ ___/   \__ \/ __ \/ __ \/ __ \/ __/  
-   ___/ / /_/ / /_/ / /__/  __/ /      ___/ / / / / /_/ / /_/ / /_    
-  /____/\__,_/\__,_/\___/\___/_/      /____/_/ /_/\____/\____/\__/    
+	  C)ccc  h)                                                  
+	 C)   cc h)                                                  
+	C)       h)HHHH   o)OOO   o)OOO   s)SSSS e)EEEEE             
+	C)       h)   HH o)   OO o)   OO s)SSSS  e)EEEE              
+ 	 C)   cc h)   HH o)   OO o)   OO      s) e)                  
+  	  C)ccc  h)   HH  o)OOO   o)OOO  s)SSSS   e)EEEE             
+	Y)    yy                                                     
+ 	 Y)  yy                                                      
+  	  Y)yy    o)OOO  u)   UU  r)RRR                              
+   	   Y)    o)   OO u)   UU r)   RR                             
+   	   Y)    o)   OO u)   UU r)                                  
+   	   Y)     o)OOO   u)UUU  r)                                  
+	F)ffffff                                            l)L  l)L 
+	F)                                                   l)   l) 
+	F)fffff  a)AAAA   r)RRR  e)EEEEE w)      WW e)EEEEE  l)   l) 
+	F)        a)AAA  r)   RR e)EEEE  w)  WW  WW e)EEEE   l)   l) 
+	F)       a)   A  r)      e)      w)  WW  WW e)       l)   l) 
+	F)        a)AAAA r)       e)EEEE  w)WW WWW   e)EEEE l)LL l)LL    
                                                                       
-     Controls: 'w'/'s' moves, Mouse fires, Space nukes, 'q' quits     
+     So begins your last 21 days on Earth. Pick your choices with WASD     
                                                                       
-                                                                      
+                    	What legacy will you leave?

@@ -16,7 +16,7 @@ GameStart::GameStart() {
     setType("GameStart");
 
     // Link to "message" sprite.
-    setSprite("gamestart");
+    setSprite("start screen");
 
     // Put in center of screen.
     setLocation(df::CENTER_CENTER);
@@ -27,7 +27,7 @@ GameStart::GameStart() {
 #endif
 
     // Play start music.
-    p_music = RM.getMusic("start music");
+    p_music = RM.getMusic("glass 'o wine");
     playMusic();
 }
 

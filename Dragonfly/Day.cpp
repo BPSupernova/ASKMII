@@ -29,7 +29,7 @@ Day::~Day() {
     p_music->pause();
 }
 
-int eventHandler(const df::Event* p_e) {
+int Day::eventHandler(const df::Event* p_e) {
     if (p_e->getType() == df::KEYBOARD_EVENT) {
         df::EventKeyboard* p_keyboard_event = (df::EventKeyboard*)p_e;
         if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
@@ -53,8 +53,33 @@ int eventHandler(const df::Event* p_e) {
     }
 }
 
-void makeChoice(int code) { // Up choice Code -> 1; Down Choice Code -> -1; Left Choice Code -> -5; Right Choice Code -> 5 
+void Day::makeChoice(int code) { // Up choice Code -> 1; Down Choice Code -> -1; Left Choice Code -> -5; Right Choice Code -> 5 
     // Throw a call to the Choice's allocatePoints method (or whatever it may be called) -> Ex: void allocatePoints(int code)
+    WM.getInstance().MarkForDelete(this);
+}
+
+void Day::setDayNumDisplay(DayNumDisplay display) {
+    days_left_display = display;
+}
+
+DayNumDisplay Day::getDayNumDisplay() const {
+    return days_left_display;
+}
+
+void Day::setPrompt(Prompt new_prompt) {
+    make_choice_prompter = new_prompt;
+}
+
+Prompt Day::getPrompt() const {
+    return make_choice_prompter;
+}
+
+void Day::setChoice(Choice new_choice) {
+    days_choice = new_choice;
+}
+
+Choice Day::getChoice() const {
+    return days_choice;
 }
 
 void Day::startDay() {

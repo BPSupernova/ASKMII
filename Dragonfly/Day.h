@@ -1,6 +1,6 @@
 #include "Object.h"
 #include "ResourceManager.h"
-
+#include "WorldManager.h"
 #include "DayNumDisplay.h"
 #include "Prompt.h"
 #include "Choice.h"
@@ -10,7 +10,7 @@
 class Day : public df::Object {
 
 private:
-	int day_index; // Index of the day it is before the end of the world (Ex: Day 21 = 21 days left til the player dies)
+	int day_index; // Index of the day it is before the end of the world (Ex: Day 21 = 21 days left til the player dies) 
 	DayNumDisplay days_left_display; // The text that says "Days Left (num)"
 	Prompt make_choice_prompter; // The text that says "What will you do today?"
 	Choice days_choice; // The set of choices for the particular day (randomly generated or whatnot)
@@ -21,7 +21,7 @@ private:
 	void startDay(); // A method that moves / animates text from the left of the screen to the center of the screen
 	void endDay(); // A method that cleans up the display once the choice has been made
 
-	void makeChoice(int code); // Based on input, decide which choice the player has chosen
+	void makeChoice(int code); // Makes a choice and updates PointsSystem based on player input
 
 public:
 	Day(int day);
