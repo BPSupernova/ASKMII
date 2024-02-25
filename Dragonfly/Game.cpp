@@ -39,7 +39,7 @@ int main(int argc, char* argv[]) {
 // Load resources (sprites, sound effects, music).
 void loadResources(void) {
     RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/gamestart-spr.txt", "start screen"); 
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/ship-spr.txt", "temp");
+    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/21-ExplodingTVSprite.txt", "temp");
     
     RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/mixkit-skateboard-idle-movement-3094.mp3", "day transition");
     RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/for-elevator-jazz-music-124005.mp3", "start music");

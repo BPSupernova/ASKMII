@@ -19,6 +19,8 @@ GameStart::GameStart() {
 
     // Put in center of screen.
     setLocation(df::CENTER_CENTER);
+    df::Box view = WM.getView();
+    setBox(view);
 
     // Register for "keyboard" event.
 #ifdef DF_REGISTER_INTEREST
