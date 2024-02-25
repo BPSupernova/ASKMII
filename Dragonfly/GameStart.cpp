@@ -9,7 +9,6 @@
 // Game includes.
 #include "GameStart.h"
 #include "Music.h"
-#include "Timekeeper.h"
 #include "Day.h"
 
 GameStart::GameStart() {
@@ -27,8 +26,15 @@ GameStart::GameStart() {
 #endif
 
     // Play start music.
-    p_music = RM.getMusic("glass 'o wine");
+    p_music = RM.getMusic("start music");
     playMusic();
+}
+
+GameStart::~GameStart() {
+    // Create Day
+    Timekeeper* tk = new Timekeeper(); // Creates a Timekeeper that counts down the 21 days
+
+    Day twewntyFirstDay = Day(tk->getAndDecrementDaysLeft() + 1); // Spawns the 21st day by spawning a day before that immediately deletes itself
 }
 
 // Play start music.
@@ -61,27 +67,6 @@ int GameStart::eventHandler(const df::Event* p_e) {
 }
 
 void GameStart::start() {
-
-    // Create Day
-    Timekeeper *tk = new Timekeeper(); // Creates a Timekeeper that counts down the 21 days
-
-    Day *twewntyFirstDay = new Day(tk->getAndDecrementDaysLeft()); // Spawns the 21st day
-
-    // Spawn choice or choices (depending on if implementation is a set of choices or a singular choice -> actually spawn in day).
-
-    // Setup points system. (No visual, simply tech that keeps "score")
-    // new PointsSystem;		                     // Points display.
-    // Maybe insight mechanic if time, but likely not
-    
-    
-
-    // Reference Code If Necessary
-    // p_vo->setLocation(df::TOP_LEFT);
-    // p_vo->setViewString("Nukes");
-    // p_vo->setValue(1);
-    // p_vo->setColor(df::YELLOW);
-    // p_vo->setBorder(false);
-
     // Pause start music.
     p_music->pause();
 

@@ -27,7 +27,7 @@ public:
 	Day(int day);
 	~Day(); 
 	int eventHandler(const df::Event* p_e);
-	int draw();
+	//int draw();
 	void playMusic();
 
 	void setDayNumDisplay(DayNumDisplay display); 

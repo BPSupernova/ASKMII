@@ -1,9 +1,9 @@
 #include "GameManager.h"
 #include "EventKeyboard.h"
 #include "LogManager.h"
+#include "Vector2D.h"
 
 #include "Day.h"
-#include "LegacyResults.h"
 
 Day::Day(int day) {
     day_index = day;
@@ -76,6 +76,7 @@ Day::Day(int day) {
         break;
     }
 
+    p_music = RM.getMusic("glass 'o wine");
     p_music->play();
     startDay();
 }
@@ -146,10 +147,15 @@ Choice Day::getChoice() const {
 }
 
 void Day::startDay() {
-    DayNumDisplay day_num_display = *(new DayNumDisplay); 
+    DayNumDisplay day_num_display = DayNumDisplay(); 
     day_num_display.setDisplayedValue(day_index);
+    day_num_display.setLocation(df::TOP_CENTER);
 
-    Prompt prompt = *(new Prompt); // Should already have prompt created in being constructed
+    Prompt prompt = Prompt(); // Should already have prompt created in being constructed
+    prompt.setLocation(df::TOP_CENTER);
+
+    df::Vector2D downward_adjustment = df::Vector2D(0, -1.5);
+    prompt.setPosition(getPosition() + downward_adjustment);
 
     setDayNumDisplay(day_num_display);
     setPrompt(prompt);
@@ -162,8 +168,8 @@ void Day::startDay() {
 }
 
 void Day::endDay() {
-    WM.MarkForDelete(&(getPrompt()));
-    WM.MarkForDelete(&(getDayNumDisplay()));
+    // WM.MarkForDelete(&days_left_display);
+    // WM.MarkForDelete(&make_choice_prompter);
     // Maybe delete choice object and then everything else, then delete this item somehow
 }
 

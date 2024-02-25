@@ -9,6 +9,7 @@ private:
 
 public:
 	GameStart();
+	~GameStart();
 	int eventHandler(const df::Event* p_e);
 	int draw();
 	void playMusic();

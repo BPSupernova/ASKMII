@@ -7,14 +7,11 @@
 Prompt::Prompt() {
 	std::string prompt = "What will you do today?";
 	setPrompt(prompt);
+	setBorder(false);
 }
 
 int Prompt::eventHandler(const df::Event* p_e) {
 	return 0;
-}
-
-std::string Prompt::generatePrompt() {
-	// Implement function
 }
 
 void Prompt::setPrompt(std::string prompt) {

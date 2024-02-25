@@ -145,7 +145,11 @@
   <ItemGroup>
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="Box.cpp" />
+    <ClCompile Include="Choice.cpp" />
+    <ClCompile Include="ChoiceManager.cpp" />
     <ClCompile Include="Clock.cpp" />
+    <ClCompile Include="Day.cpp" />
+    <ClCompile Include="DayNumDisplay.cpp" />
     <ClCompile Include="DisplayManager.cpp" />
     <ClCompile Include="Event.cpp" />
     <ClCompile Include="EventCollision.cpp" />
@@ -157,13 +161,17 @@
     <ClCompile Include="Frame.cpp" />
     <ClCompile Include="Game.cpp" />
     <ClCompile Include="GameManager.cpp" />
+    <ClCompile Include="GameStart.cpp" />
     <ClCompile Include="InputManager.cpp" />
+    <ClCompile Include="LegacyResults.cpp" />
     <ClCompile Include="LogManager.cpp" />
     <ClCompile Include="Manager.cpp" />
     <ClCompile Include="Music.cpp" />
     <ClCompile Include="Object.cpp" />
     <ClCompile Include="ObjectList.cpp" />
     <ClCompile Include="ObjectListIterator.cpp" />
+    <ClCompile Include="PointsSystem.cpp" />
+    <ClCompile Include="Prompt.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
     <ClCompile Include="Sound.cpp" />
     <ClCompile Include="Sprite.cpp" />
@@ -178,6 +186,7 @@
     <ClCompile Include="TestSaucer.cpp" />
     <ClCompile Include="TestStar.cpp" />
     <ClCompile Include="TestStart.cpp" />
+    <ClCompile Include="Timekeeper.cpp" />
     <ClCompile Include="utility.cpp" />
     <ClCompile Include="Vector2D.cpp" />
     <ClCompile Include="ViewObject.cpp" />
@@ -186,8 +195,12 @@
   <ItemGroup>
     <ClInclude Include="Animation.h" />
     <ClInclude Include="Box.h" />
+    <ClInclude Include="Choice.h" />
+    <ClInclude Include="ChoiceManager.h" />
     <ClInclude Include="Clock.h" />
     <ClInclude Include="Color.h" />
+    <ClInclude Include="Day.h" />
+    <ClInclude Include="DayNumDisplay.h" />
     <ClInclude Include="DisplayManager.h" />
     <ClInclude Include="Event.h" />
     <ClInclude Include="EventCollision.h" />
@@ -198,13 +211,17 @@
     <ClInclude Include="EventView.h" />
     <ClInclude Include="Frame.h" />
     <ClInclude Include="GameManager.h" />
+    <ClInclude Include="GameStart.h" />
     <ClInclude Include="InputManager.h" />
+    <ClInclude Include="LegacyResults.h" />
     <ClInclude Include="LogManager.h" />
     <ClInclude Include="Manager.h" />
     <ClInclude Include="Music.h" />
     <ClInclude Include="Object.h" />
     <ClInclude Include="ObjectList.h" />
     <ClInclude Include="ObjectListIterator.h" />
+    <ClInclude Include="PointsSystem.h" />
+    <ClInclude Include="Prompt.h" />
     <ClInclude Include="ResourceManager.h" />
     <ClInclude Include="Sound.h" />
     <ClInclude Include="Sprite.h" />
@@ -219,6 +236,7 @@
     <ClInclude Include="TestSaucer.h" />
     <ClInclude Include="TestStar.h" />
     <ClInclude Include="TestStart.h" />
+    <ClInclude Include="Timekeeper.h" />
     <ClInclude Include="utility.h" />
     <ClInclude Include="Vector2D.h" />
     <ClInclude Include="ViewObject.h" />
