@@ -7,4 +7,5 @@ private:
 public:
 	Prompt();
 	int eventHandler(const df::Event* p_e);
+	int draw();
 };

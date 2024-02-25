@@ -7,6 +7,7 @@
 
 Day::Day(int day) {
     day_index = day;
+    setAltitude(df::MAX_ALTITUDE);
     switch (day) { // Set the Day's Sprite based on what day it is
     case 21:
         setSprite("temp");
@@ -76,6 +77,9 @@ Day::Day(int day) {
         break;
     }
 
+    df::Vector2D start_pos = df::Vector2D(40, 12);
+    setPosition(start_pos);
+
     p_music = RM.getMusic("glass 'o wine");
     p_music->play();
     startDay();
@@ -89,6 +93,7 @@ Day::~Day() {
         new LegacyResults; 
     } else {
         new Day(day_index--); // Create the next Day
+        LM.getInstance().writeLog("Day: %d\n", day_index);
     }
     p_music->pause();
 }
@@ -154,11 +159,12 @@ void Day::startDay() {
     Prompt prompt = Prompt(); // Should already have prompt created in being constructed
     prompt.setLocation(df::TOP_CENTER);
 
-    df::Vector2D downward_adjustment = df::Vector2D(0, -1.5);
-    prompt.setPosition(getPosition() + downward_adjustment);
+    df::Vector2D downward_adjustment = df::Vector2D(0, 1);
+    prompt.setPosition(day_num_display.getPosition() + downward_adjustment); 
 
     setDayNumDisplay(day_num_display);
     setPrompt(prompt);
+
 
     // Create new set of Choices
     // Move the DayNumDisplay closer to Top Center

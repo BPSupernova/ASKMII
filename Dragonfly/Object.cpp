@@ -166,7 +166,7 @@ df::Box df::Object::getBox() const {
 
 std::string df::Object::toString(int i) {
 	std::stringstream ss; // Create a stringstream
-	ss << 1; // Add the number to the stream
+	ss << i; // Add the number to the stream
 	
 	return ss.str(); // Returns string with contents of stream
 }

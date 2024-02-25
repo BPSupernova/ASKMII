@@ -75,7 +75,7 @@ void TestStart::start() {
     df::ViewObject* p_vo = new df::ViewObject; // Count of nukes.
     p_vo->setLocation(df::TOP_LEFT);
     p_vo->setViewString("Nukes");
-    p_vo->setValue(1);
+    //p_vo->setValue(1);
     p_vo->setColor(df::YELLOW);
     p_vo->setBorder(false);
 

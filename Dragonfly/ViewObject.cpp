@@ -21,10 +21,10 @@ int df::ViewObject::draw() {
 
 	// Display view_string + value
 	if (vo_border) {
-		temp_string = " " + getViewString() + " " + toString(vo_value);
+		temp_string = " " + getViewString() + " " + toString(getValue());
 	}
 	else {
-		temp_string = getViewString() + " " + toString(vo_value);
+		temp_string = getViewString() + " " + toString(getValue());
 	}
 
 	// Draw centered at position
