@@ -92,10 +92,10 @@ Day::~Day() {
     if (day_index == 1) {
         new LegacyResults; 
     } else {
-        new Day(day_index--); // Create the next Day
+        day_index--;
+        new Day(day_index); // Create the next Day
         LM.getInstance().writeLog("Day: %d\n", day_index);
     }
-    p_music->pause();
 }
 
 int Day::eventHandler(const df::Event* p_e) {
@@ -124,6 +124,7 @@ int Day::eventHandler(const df::Event* p_e) {
 
 void Day::makeChoice(int code) { // Up choice Code -> 1; Down Choice Code -> -1; Left Choice Code -> -5; Right Choice Code -> 5 
     // Throw a call to the Choice's allocatePoints method (or whatever it may be called) -> Ex: void allocatePoints(int code)
+    p_music->pause();
     WM.getInstance().MarkForDelete(this);
 }
 
