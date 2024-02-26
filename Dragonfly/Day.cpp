@@ -7,7 +7,7 @@
 
 Day::Day(int day) {
     day_index = day;
-    setAltitude(df::MAX_ALTITUDE);
+    //setAltitude(df::MAX_ALTITUDE);
     switch (day) { // Set the Day's Sprite based on what day it is
     case 21:
         setSprite("temp");
