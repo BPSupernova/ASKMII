@@ -9,6 +9,7 @@ C:\Users\Ben\source\repos\Dragonfly\Dragonfly\Animation.cpp(54,43): warning C424
   Choice.cpp
   ChoiceManager.cpp
 C:\Users\Ben\source\repos\Dragonfly\Dragonfly\ChoiceManager.cpp(38,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\ChoiceManager.cpp(51,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   Clock.cpp
   Day.cpp
   DayNumDisplay.cpp
@@ -37,7 +38,7 @@ C:\Users\Ben\source\repos\Dragonfly\Dragonfly\GameManager.cpp(33,54): warning C4
 C:\Users\Ben\source\repos\Dragonfly\Dragonfly\InputManager.cpp(480,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
 C:\Users\Ben\source\repos\Dragonfly\Dragonfly\InputManager.cpp(480,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   Generating Code...
-C:\Users\Ben\source\repos\Dragonfly\Dragonfly\Day.cpp(123): warning C4715: 'Day::eventHandler': not all control paths return a value
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\Day.cpp(124): warning C4715: 'Day::eventHandler': not all control paths return a value
   Compiling...
   LegacyResults.cpp
   LogManager.cpp
@@ -48,6 +49,7 @@ C:\Users\Ben\source\repos\Dragonfly\Dragonfly\Object.cpp(31,22): warning C4305: 
 C:\Users\Ben\source\repos\Dragonfly\Dragonfly\Object.cpp(32,20): warning C4305: 'argument': truncation from 'double' to 'float'
   ObjectList.cpp
   ObjectListIterator.cpp
+  PointsManager.cpp
   PointsSystem.cpp
   Prompt.cpp
   ResourceManager.cpp
@@ -60,12 +62,13 @@ C:\Users\Ben\source\repos\Dragonfly\Dragonfly\Object.cpp(32,20): warning C4305: 
   TestHero.cpp
   TestObject.cpp
   TestPoints.cpp
-  TestReticle.cpp
   Generating Code...
   Compiling...
+  TestReticle.cpp
   TestSaucer.cpp
   TestStar.cpp
   TestStart.cpp
+  TileManager.cpp
   Timekeeper.cpp
   utility.cpp
   Vector2D.cpp

@@ -8,7 +8,7 @@ Choice::Choice() {
 }
 
 void Choice::setChoiceString(int day, int choiceNum) {
-    std::string cString = ChoiceManager::getInstance()->getChoicesForDay(day)[choiceNum];
+    std::string cString = ChoiceManager::getInstance()->getChoicesStringsForDay(day)[choiceNum];
     setViewString(cString);
 }
 

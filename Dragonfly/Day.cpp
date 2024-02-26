@@ -4,10 +4,11 @@
 #include "Vector2D.h"
 
 #include "Day.h"
+#include "ChoiceManager.h"
 
 Day::Day(int day) {
     day_index = day;
-    //setAltitude(df::MAX_ALTITUDE);
+    
     switch (day) { // Set the Day's Sprite based on what day it is
     case 21:
         setSprite("temp");
@@ -77,7 +78,7 @@ Day::Day(int day) {
         break;
     }
 
-    df::Vector2D start_pos = df::Vector2D(40, 12);
+    df::Vector2D start_pos = df::Vector2D(40, 12); // Sprite for each day spawns in the center of the screen
     setPosition(start_pos);
 
     p_music = RM.getMusic("glass 'o wine");
@@ -89,7 +90,7 @@ Day::~Day() {
 
     endDay();
 
-    if (day_index == 1) {
+    if (day_index == 1) { // Show what Legacy the player received
         new LegacyResults; 
     } else {
         day_index--;
@@ -166,6 +167,24 @@ void Day::startDay() {
     setDayNumDisplay(day_num_display);
     setPrompt(prompt);
 
+    Choice top_choice = Choice();
+    Choice bottom_choice = Choice(); 
+    Choice left_choice = Choice();
+    Choice right_choice = Choice(); 
+
+    /*
+    top_choice.setPosition(this->getPosition() + df::Vector2D(0, -3)); // Up and down in Vector seems to be switched for some reason
+    bottom_choice.setPosition(this->getPosition() + df::Vector2D(0, 3));
+    left_choice.setPosition(this->getPosition() + df::Vector2D(-5, 0));
+    right_choice.setPosition(this->getPosition() + df::Vector2D(5, 0));
+
+    int* choice_set = ChoiceManager::getInstance()->getChoicesForDay(day_index);
+
+    top_choice.setChoiceString(day_index, choice_set[0]); 
+    bottom_choice.setChoiceString(day_index, choice_set[0]); 
+    left_choice.setChoiceString(day_index, choice_set[0]); 
+    right_choice.setChoiceString(day_index, choice_set[0]); 
+    */
 
     // Create new set of Choices
     // Move the DayNumDisplay closer to Top Center
@@ -175,9 +194,7 @@ void Day::startDay() {
 }
 
 void Day::endDay() {
-    // WM.MarkForDelete(&days_left_display);
-    // WM.MarkForDelete(&make_choice_prompter);
-    // Maybe delete choice object and then everything else, then delete this item somehow
+    // Do something here if necessary
 }
 
 void Day::playMusic() {

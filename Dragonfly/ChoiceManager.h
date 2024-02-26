@@ -13,7 +13,8 @@ private:
 public:
     static ChoiceManager* getInstance();
     void loadChoicesFromFile(const std::string& filename);
-    std::string* getChoicesForDay(int day);
+    int* getChoicesForDay(int day);
+    std::string* getChoicesStringsForDay(int day);
     void processChoice(std::string choiceChosen);
 };
 

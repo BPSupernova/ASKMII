@@ -34,7 +34,20 @@ void ChoiceManager::loadChoicesFromFile(const std::string& filename) {
     }
 }
 
-std::string* ChoiceManager::getChoicesForDay(int day) {
+int* ChoiceManager::getChoicesForDay(int day) {
+    std::srand(time(0));
+    int* dayChoices = new int[4];
+    int totalChoices = 160;
+
+    for (int i = 0; i < 4; ++i) {
+        int randomIndex = std::rand() % totalChoices;
+        dayChoices[i] = randomIndex;
+    }
+
+    return dayChoices;
+}
+
+std::string* ChoiceManager::getChoicesStringsForDay(int day) {
     std::srand(time(0));
     std::string* dayChoices = new std::string[4];
     int totalChoices = 160;
