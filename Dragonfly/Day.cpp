@@ -14,61 +14,61 @@ Day::Day(int day) {
         setSprite("temp");
         break;
     case 20:
-        setSprite("temp");
+        setSprite("man");
         break;
     case 19:
-        setSprite("temp");
+        setSprite("mushroom cloud");
         break;
     case 18:
-        setSprite("temp");
+        setSprite("man");
         break;
     case 17:
         setSprite("temp");
         break;
     case 16:
-        setSprite("temp");
+        setSprite("man");
         break;
     case 15:
-        setSprite("temp");
+        setSprite("mushroom cloud");
         break;
     case 14:
-        setSprite("temp");
+        setSprite("cloud");
         break;
     case 13:
         setSprite("temp");
         break;
     case 12:
-        setSprite("temp");
+        setSprite("smileman");
         break;
     case 11:
-        setSprite("temp");
+        setSprite("mushroom cloud");
         break;
     case 10:
-        setSprite("temp");
+        setSprite("smileman");
         break;
     case 9:
         setSprite("temp");
         break;
     case 8:
-        setSprite("temp");
+        setSprite("cloud");
         break;
     case 7:
-        setSprite("temp");
+        setSprite("mushroom cloud");
         break;
     case 6:
-        setSprite("temp");
+        setSprite("creepsmileman");
         break;
     case 5:
         setSprite("temp");
         break;
     case 4:
-        setSprite("temp");
+        setSprite("cloud");
         break;
     case 3:
-        setSprite("temp");
+        setSprite("mushroom cloud");
         break;
     case 2:
-        setSprite("temp");
+        setSprite("evilman");
         break;
     case 1:
         setSprite("temp");
