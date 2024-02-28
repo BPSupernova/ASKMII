@@ -1,10 +1,20 @@
-#include "Object.h"
+#include "ViewObject.h"
+#include "ResourceManager.h"
+#include "Music.h"
+#include "Prompt.h"
 
-class LegacyResults : public df::Object {
+class LegacyResults : public df::ViewObject {
 private:
+	df::Music* p_music;
+	Prompt quit_prompt;
 
 public:
 	LegacyResults();
 	~LegacyResults();
-	int eventHandler(const df::Event* p_e); 
+	int eventHandler(const df::Event* p_e);
+	int draw();
+	void playMusic();
+
+	void setPrompt(Prompt new_prompt);
+	Prompt getPrompt() const;
 };

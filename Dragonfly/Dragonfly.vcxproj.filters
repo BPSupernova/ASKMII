@@ -159,10 +159,10 @@
     <ClCompile Include="ChoiceManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TileManager.cpp">
+    <ClCompile Include="PointsManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="PointsManager.cpp">
+    <ClCompile Include="TitleManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

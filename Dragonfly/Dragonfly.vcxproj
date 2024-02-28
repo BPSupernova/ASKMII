@@ -187,8 +187,8 @@
     <ClCompile Include="TestSaucer.cpp" />
     <ClCompile Include="TestStar.cpp" />
     <ClCompile Include="TestStart.cpp" />
-    <ClCompile Include="TileManager.cpp" />
     <ClCompile Include="Timekeeper.cpp" />
+    <ClCompile Include="TitleManager.cpp" />
     <ClCompile Include="utility.cpp" />
     <ClCompile Include="Vector2D.cpp" />
     <ClCompile Include="ViewObject.cpp" />

@@ -44,6 +44,7 @@ void loadResources(void) {
     RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/mixkit-skateboard-idle-movement-3094.mp3", "day transition");
     RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/for-elevator-jazz-music-124005.mp3", "start music");
     RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/glass-of-wine-143532.mp3", "glass 'o wine");
+    RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/legacy-of-handel-legendary-passacaglia-background-music-25-second-191894.mp3", "end music");
 }
 
 // Populate world with some objects.

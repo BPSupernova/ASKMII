@@ -1,28 +1,221 @@
 Message -> There is no sprite to set for this Day
-Message -> ChoiceIndex: 2
-Message -> cString: @5Ðe
-Message -> ChoiceIndex: 2
-Message -> cString: à5Ðe
-Message -> ChoiceIndex: 2
-Message -> cString: Ð5Ðe
-Message -> ChoiceIndex: 2
-Message -> cString: 
-Message -> ChoiceIndex: 159
-Message -> cString: @-5Ðe
-Message -> ChoiceIndex: 159
-Message -> cString: @(5Ðe
-Message -> ChoiceIndex: 159
-Message -> cString: @-5Ðe
-Message -> ChoiceIndex: 159
-Message -> cString: P65Ðe
+Message -> ChoiceIndex: 152
+Message -> cString:  ¢:ô
+Message -> ChoiceIndex: 152
+Message -> cString: P’¢:ô
+Message -> ChoiceIndex: 152
+Message -> cString: P’¢:ô
+Message -> ChoiceIndex: 152
+Message -> cString: ðˆ¢:ô
+Message -> ChoiceIndex: 149
+Message -> cString: à¢:ô
+Message -> ChoiceIndex: 149
+Message -> cString: 0¨¢:ô
+Message -> ChoiceIndex: 149
+Message -> cString:  ©¢:ô
+Message -> ChoiceIndex: 149
+Message -> cString: à§¢:ô
 Message -> Day: 21
-Message -> ChoiceIndex: 159
-Message -> Action [@25Ðe] takenMessage -> ChoiceIndex: 156
-Message -> cString: ÀC5Ðe
-Message -> ChoiceIndex: 156
-Message -> cString: °D5Ðe
-Message -> ChoiceIndex: 156
-Message -> cString: @F5Ðe
-Message -> ChoiceIndex: 156
-Message -> cString: €G5Ðe
+Message -> ChoiceIndex: 149
+Message -> Action [›¢:ô] takenMessage -> ChoiceIndex: 146
+Message -> cString: @»¢:ô
+Message -> ChoiceIndex: 146
+Message -> cString:  °¢:ô
+Message -> ChoiceIndex: 146
+Message -> cString: @À¢:ô
+Message -> ChoiceIndex: 146
+Message -> cString: ð°¢:ô
 Message -> Day: 20
+Message -> ChoiceIndex: 146
+Message -> Action [€”¢:ô] takenMessage -> ChoiceIndex: 142
+Message -> cString: PÓ¢:ô
+Message -> ChoiceIndex: 142
+Message -> cString: ÐË¢:ô
+Message -> ChoiceIndex: 142
+Message -> cString: @Ô¢:ô
+Message -> ChoiceIndex: 142
+Message -> cString: °Ã¢:ô
+Message -> Day: 19
+Message -> ChoiceIndex: 142
+Message -> Action [Ð¨¢:ô] takenMessage -> ChoiceIndex: 139
+Message -> cString: ÀÌ¢:ô
+Message -> ChoiceIndex: 139
+Message -> cString: 
+Message -> ChoiceIndex: 139
+Message -> cString:  Ñ¢:ô
+Message -> ChoiceIndex: 139
+Message -> cString:  â¢:ô
+Message -> Day: 18
+Message -> ChoiceIndex: 139
+Message -> Action [P¢:ô] takenMessage -> ChoiceIndex: 136
+Message -> cString: ×¢:ô
+Message -> ChoiceIndex: 136
+Message -> cString: Þ¢:ô
+Message -> ChoiceIndex: 136
+Message -> cString:  å¢:ô
+Message -> ChoiceIndex: 136
+Message -> cString: Ù¢:ô
+Message -> Day: 17
+Message -> ChoiceIndex: 136
+Message -> Action [ œ¢:ô] takenMessage -> ChoiceIndex: 133
+Message -> cString: @÷¢:ô
+Message -> ChoiceIndex: 133
+Message -> cString: ú¢:ô
+Message -> ChoiceIndex: 133
+Message -> cString: @ò¢:ô
+Message -> ChoiceIndex: 133
+Message -> cString: €ø¢:ô
+Message -> Day: 16
+Message -> ChoiceIndex: 133
+Message -> Action [°´¢:ô] takenMessage -> ChoiceIndex: 129
+Message -> cString: ðñ¢:ô
+Message -> ChoiceIndex: 129
+Message -> cString: ðñ¢:ô
+Message -> ChoiceIndex: 129
+Message -> cString: ò¢:ô
+Message -> ChoiceIndex: 129
+Message -> cString: Ðó¢:ô
+Message -> Day: 15
+Message -> ChoiceIndex: 129
+Message -> Action [ðº¢:ô] takenMessage -> ChoiceIndex: 126
+Message -> cString: `£:ô
+Message -> ChoiceIndex: 126
+Message -> cString: Ðý¢:ô
+Message -> ChoiceIndex: 126
+Message -> cString: Àom:ô
+Message -> ChoiceIndex: 126
+Message -> cString: °km:ô
+Message -> Day: 14
+Message -> ChoiceIndex: 126
+Message -> Action [ðlm:ô] takenMessage -> ChoiceIndex: 123
+Message -> cString: £:ô
+Message -> ChoiceIndex: 123
+Message -> cString: Àx«:ô
+Message -> ChoiceIndex: 123
+Message -> cString: Àn«:ô
+Message -> ChoiceIndex: 123
+Message -> cString: à{«:ô
+Message -> Day: 13
+Message -> ChoiceIndex: 123
+Message -> Action [€«:ô] takenMessage -> ChoiceIndex: 120
+Message -> cString: °’«:ô
+Message -> ChoiceIndex: 120
+Message -> cString: À‘«:ô
+Message -> ChoiceIndex: 120
+Message -> cString: 0‹«:ô
+Message -> ChoiceIndex: 120
+Message -> cString: p‚«:ô
+Message -> Day: 12
+Message -> ChoiceIndex: 120
+Message -> Action [p}«:ô] takenMessage -> ChoiceIndex: 116
+Message -> cString:  ˜«:ô
+Message -> ChoiceIndex: 116
+Message -> cString: P¢«:ô
+Message -> ChoiceIndex: 116
+Message -> cString:  «:ô
+Message -> ChoiceIndex: 116
+Message -> cString: P¢«:ô
+Message -> Day: 11
+Message -> ChoiceIndex: 116
+Message -> Action [P«:ô] takenMessage -> ChoiceIndex: 113
+Message -> cString: 
+Message -> ChoiceIndex: 113
+Message -> cString: Ð•«:ô
+Message -> ChoiceIndex: 113
+Message -> cString:  ›«:ô
+Message -> ChoiceIndex: 113
+Message -> cString:  ¶«:ô
+Message -> Day: 10
+Message -> ChoiceIndex: 113
+Message -> Action [0m«:ô] takenMessage -> ChoiceIndex: 110
+Message -> cString: À´«:ô
+Message -> ChoiceIndex: 110
+Message -> cString: ««:ô
+Message -> ChoiceIndex: 110
+Message -> cString: à·«:ô
+Message -> ChoiceIndex: 110
+Message -> cString:  »«:ô
+Message -> Day: 9
+Message -> ChoiceIndex: 110
+Message -> Action [q«:ô] takenMessage -> ChoiceIndex: 107
+Message -> cString: °Î«:ô
+Message -> ChoiceIndex: 107
+Message -> cString: `É«:ô
+Message -> ChoiceIndex: 107
+Message -> cString: °Ä«:ô
+Message -> ChoiceIndex: 107
+Message -> cString: °Ä«:ô
+Message -> Day: 8
+Message -> ChoiceIndex: 107
+Message -> Action [`ˆ«:ô] takenMessage -> ChoiceIndex: 103
+Message -> cString: ÀÃ«:ô
+Message -> ChoiceIndex: 103
+Message -> cString: €Ì«:ô
+Message -> ChoiceIndex: 103
+Message -> cString: €Ì«:ô
+Message -> ChoiceIndex: 103
+Message -> cString: °Î«:ô
+Message -> Day: 7
+Message -> ChoiceIndex: 103
+Message -> Action [à…«:ô] takenMessage -> ChoiceIndex: 100
+Message -> cString: °Ó«:ô
+Message -> ChoiceIndex: 100
+Message -> cString: @Õ«:ô
+Message -> ChoiceIndex: 100
+Message -> cString: °e«:ô
+Message -> ChoiceIndex: 100
+Message -> cString: 0^«:ô
+Message -> Day: 6
+Message -> ChoiceIndex: 100
+Message -> Action [ð«:ô] takenMessage -> ChoiceIndex: 97
+Message -> cString: @]«:ô
+Message -> ChoiceIndex: 97
+Message -> cString: 
+Message -> ChoiceIndex: 97
+Message -> cString: `[«:ô
+Message -> ChoiceIndex: 97
+Message -> cString: ðk«:ô
+Message -> Day: 5
+Message -> ChoiceIndex: 97
+Message -> Action [  «:ô] takenMessage -> ChoiceIndex: 93
+Message -> cString:  º¢:ô
+Message -> ChoiceIndex: 93
+Message -> cString: àÅ¢:ô
+Message -> ChoiceIndex: 93
+Message -> cString:  Ö¢:ô
+Message -> ChoiceIndex: 93
+Message -> cString: 0é¢:ô
+Message -> Day: 4
+Message -> ChoiceIndex: 93
+Message -> Action [@ã¢:ô] takenMessage -> ChoiceIndex: 90
+Message -> cString: `zm:ô
+Message -> ChoiceIndex: 90
+Message -> cString: °pm:ô
+Message -> ChoiceIndex: 90
+Message -> cString: àåm:ô
+Message -> ChoiceIndex: 90
+Message -> cString: €Ù¬:ô
+Message -> Day: 3
+Message -> ChoiceIndex: 90
+Message -> Action [àÁ«:ô] takenMessage -> ChoiceIndex: 87
+Message -> cString: Ðü¬:ô
+Message -> ChoiceIndex: 87
+Message -> cString: @
+Message -> ChoiceIndex: 87
+Message -> cString: ñ¬:ô
+Message -> ChoiceIndex: 87
+Message -> cString: pó¬:ô
+Message -> Day: 2
+Message -> ChoiceIndex: 87
+Message -> Action [ ú¬:ô] takenMessage -> ChoiceIndex: 84
+Message -> cString: @­:ô
+Message -> ChoiceIndex: 84
+Message -> cString: à
+­:ô
+Message -> ChoiceIndex: 84
+Message -> cString: À­:ô
+Message -> ChoiceIndex: 84
+Message -> cString: €­:ô
+Message -> Day: 1
+Message -> ChoiceIndex: 84
+Message -> Action [Ð­:ô] taken

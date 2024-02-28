@@ -2,7 +2,6 @@
 #include "ResourceManager.h"
 #include "WorldManager.h"
 #include "DayNumDisplay.h"
-#include "Prompt.h"
 #include "Choice.h"
 #include "PointsSystem.h"
 #include "LegacyResults.h"

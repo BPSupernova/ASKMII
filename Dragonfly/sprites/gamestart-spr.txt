@@ -1,16 +1,17 @@
 1
-61
-11
+53
+13
 15
 white           
-                       Choose Your                           
-              ___                           _ _               
-            / __\_ _ _ __ _____      _____| | |              
-           / _\/ _` | '__/ _ \ \ /\ / / _ \ | |              
-          / / | (_| | | |  __/\ V  V /  __/ | |              
-          \/   \__,_|_|  \___| \_/\_/ \___|_|_|              
-                                                           
-                                                             
-                   What will your legacy be?                  
-                                                         
-                   Press 'p' to play, 'q' to quit                                                             
+Choose Your                                         
+            ___                           _ _                
+   / __\_ _ _ __ _____      _____| | |               
+  / _\/ _` | '__/ _ \ \ /\ / / _ \ | |               
+ / / | (_| | | |  __/\ V  V /  __/ | |               
+ \/   \__,_|_|  \___| \_/\_/ \___|_|_|               
+                                                    
+                                                    
+          What will your legacy be?                           
+                                       Press 'wads' for picking 1st, 2nd, 3rd, & 4th choices             
+                                                    
+Press 'p' to play, 'q' to quit                                                                          
