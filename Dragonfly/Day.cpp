@@ -8,7 +8,7 @@
 
 Day::Day(int day) {
     day_index = day;
-    
+
     switch (day) { // Set the Day's Sprite based on what day it is
     case 21:
         setSprite("temp");
@@ -91,8 +91,9 @@ Day::~Day() {
     endDay();
 
     if (day_index == 1) { // Show what Legacy the player received
-        new LegacyResults; 
-    } else {
+        new LegacyResults;
+    }
+    else {
         day_index--;
         new Day(day_index); // Create the next Day
         LM.getInstance().writeLog("Day: %d\n", day_index);
@@ -105,16 +106,16 @@ int Day::eventHandler(const df::Event* p_e) {
         if (p_keyboard_event->getKeyboardAction() == df::KEY_PRESSED)
             switch (p_keyboard_event->getKey()) {
             case df::Keyboard::W: // Top choice
-                makeChoice(1);
+                makeChoice(0);
                 break;
             case df::Keyboard::S: // Bottom choice
-                makeChoice(-1);
+                makeChoice(2);
                 break;
             case df::Keyboard::A: // Left Choice         
-                makeChoice(-5);
+                makeChoice(3);
                 break;
             case df::Keyboard::D: // Right Choice (as in direction)
-                makeChoice(5);
+                makeChoice(1);
                 break;
             default:
                 break;
@@ -123,8 +124,10 @@ int Day::eventHandler(const df::Event* p_e) {
     }
 }
 
-void Day::makeChoice(int code) { // Up choice Code -> 1; Down Choice Code -> -1; Left Choice Code -> -5; Right Choice Code -> 5 
-    // Throw a call to the Choice's allocatePoints method (or whatever it may be called) -> Ex: void allocatePoints(int code)
+void Day::makeChoice(int code) { 
+    // 0-3 Top circular to left
+
+    ChoiceManager::getInstance()->processChoice(ChoiceManager::getInstance()->getChoicesStringsForDay(day_index)[code]);
     p_music->pause();
     WM.getInstance().MarkForDelete(this);
 }
@@ -145,16 +148,40 @@ Prompt Day::getPrompt() const {
     return make_choice_prompter;
 }
 
-void Day::setChoice(Choice new_choice) {
-    days_choice = new_choice;
+void Day::setTopChoice(Choice new_choice) {
+    top_choice = new_choice;
 }
 
-Choice Day::getChoice() const {
-    return days_choice;
+Choice Day::getTopChoice() const {
+    return top_choice;
+}
+
+void Day::setBottomChoice(Choice new_choice) {
+    bottom_choice = new_choice;
+}
+
+Choice Day::getBottomChoice() const {
+    return bottom_choice;
+}
+
+void Day::setLeftChoice(Choice new_choice) {
+    left_choice = new_choice;
+}
+
+Choice Day::getLeftChoice() const {
+    return left_choice;
+}
+
+void Day::setRightChoice(Choice new_choice) {
+    right_choice = new_choice;
+}
+
+Choice Day::getRightChoice() const {
+    return right_choice;
 }
 
 void Day::startDay() {
-    DayNumDisplay day_num_display = DayNumDisplay(); 
+    DayNumDisplay day_num_display = DayNumDisplay();
     day_num_display.setDisplayedValue(day_index);
     day_num_display.setLocation(df::TOP_CENTER);
 
@@ -162,29 +189,39 @@ void Day::startDay() {
     prompt.setLocation(df::TOP_CENTER);
 
     df::Vector2D downward_adjustment = df::Vector2D(0, 1);
-    prompt.setPosition(day_num_display.getPosition() + downward_adjustment); 
+    prompt.setPosition(day_num_display.getPosition() + downward_adjustment);
 
     setDayNumDisplay(day_num_display);
     setPrompt(prompt);
 
     Choice top_choice = Choice();
-    Choice bottom_choice = Choice(); 
+    Choice bottom_choice = Choice();
     Choice left_choice = Choice();
-    Choice right_choice = Choice(); 
+    Choice right_choice = Choice();
 
-    /*
-    top_choice.setPosition(this->getPosition() + df::Vector2D(0, -3)); // Up and down in Vector seems to be switched for some reason
-    bottom_choice.setPosition(this->getPosition() + df::Vector2D(0, 3));
-    left_choice.setPosition(this->getPosition() + df::Vector2D(-5, 0));
-    right_choice.setPosition(this->getPosition() + df::Vector2D(5, 0));
 
-    int* choice_set = ChoiceManager::getInstance()->getChoicesForDay(day_index);
+    top_choice.setPosition(this->getPosition() + df::Vector2D(0, -8.5)); // Up and down in Vector seems to be switched for some reason
+    bottom_choice.setPosition(this->getPosition() + df::Vector2D(0, 8));
+    left_choice.setPosition(this->getPosition() + df::Vector2D(0, -6.5));
+    right_choice.setPosition(this->getPosition() + df::Vector2D(0, 6));
 
-    top_choice.setChoiceString(day_index, choice_set[0]); 
-    bottom_choice.setChoiceString(day_index, choice_set[0]); 
-    left_choice.setChoiceString(day_index, choice_set[0]); 
-    right_choice.setChoiceString(day_index, choice_set[0]); 
-    */
+    int* choice_set = new int[4];
+    choice_set = ChoiceManager::getInstance()->getChoicesForDay(day_index); 
+
+    printf("First String: %d\n", choice_set[0]);
+    printf("Second String: %d\n", choice_set[1]);
+
+    if (choice_set[0] > 156) { choice_set[0] -= 4; }
+
+    top_choice.setChoiceString(day_index, choice_set[0]);
+    bottom_choice.setChoiceString(day_index, choice_set[2] + 1);
+    left_choice.setChoiceString(day_index, choice_set[3] + 2); 
+    right_choice.setChoiceString(day_index, choice_set[1] + 3);
+
+    setTopChoice(top_choice);
+    setBottomChoice(bottom_choice);
+    setLeftChoice(left_choice);
+    setRightChoice(right_choice);
 
     // Create new set of Choices
     // Move the DayNumDisplay closer to Top Center

@@ -9,4 +9,5 @@ public:
 	Choice();
 	void setChoiceString(int day, int choiceNum);
 	int eventHandler(const df::Event* p_e);
+	int draw();
 };

@@ -5,6 +5,7 @@
 #include "LogManager.h"
 #include "ResourceManager.h"
 #include "WorldManager.h"
+#include "ChoiceManager.h"
 
 // Game includes.
 #include "GameStart.h"
@@ -13,6 +14,8 @@
 
 GameStart::GameStart() {
     setType("GameStart");
+
+    ChoiceManager::getInstance()->loadChoicesFromFile("choices.txt");
 
     // Link to "message" sprite.
     setSprite("start screen");

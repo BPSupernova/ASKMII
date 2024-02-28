@@ -4,11 +4,18 @@
 #include <cstdlib>
 #include <ctime>
 #include "LogManager.h"
+#include "PointsManager.h"
 
 ChoiceManager* ChoiceManager::instance = nullptr;
 
 ChoiceManager::ChoiceManager() {
+    for (int i = 0; i < 160; i++) {
+        choices[i] = "";
+    }
+
     loadChoicesFromFile("choices.txt");
+    std::srand(time(0));
+    seed = std::rand() % 100000;
 }
 
 ChoiceManager* ChoiceManager::getInstance() {
@@ -35,12 +42,14 @@ void ChoiceManager::loadChoicesFromFile(const std::string& filename) {
 }
 
 int* ChoiceManager::getChoicesForDay(int day) {
-    std::srand(time(0));
+
+    std::srand(seed + day);
+
     int* dayChoices = new int[4];
     int totalChoices = 160;
 
     for (int i = 0; i < 4; ++i) {
-        int randomIndex = std::rand() % totalChoices;
+        int randomIndex = (std::rand() + i) % totalChoices;
         dayChoices[i] = randomIndex;
     }
 
@@ -48,18 +57,27 @@ int* ChoiceManager::getChoicesForDay(int day) {
 }
 
 std::string* ChoiceManager::getChoicesStringsForDay(int day) {
-    std::srand(time(0));
-    std::string* dayChoices = new std::string[4];
-    int totalChoices = 160;
 
-    for (int i = 0; i < 4; ++i) {
-        int randomIndex = std::rand() % totalChoices;
-        dayChoices[i] = choices[randomIndex];
+    int* choiceIndex = getChoicesForDay(day);
+    LM.getInstance().writeLog("ChoiceIndex: %d\n", choiceIndex[0]);
+
+    std::string* dayChoices = new std::string[4];
+
+    for (int i = 0; i < 4; i++) {
+        dayChoices[i] = choices[choiceIndex[i]];
     }
 
     return dayChoices;
 }
 
-void ChoiceManager::processChoice(std::string choiceChosen) {
+void ChoiceManager::processChoice(std::string choiceChosen) { 
+    int fullChoice = 0;
+    for (int i = 0; i < 160; i++) {
+        if (choices[i] == choiceChosen) {
+            fullChoice = i;
+            break;
+        }
+    }
+    PointsManager::getInstance().readValuesFromFile(fullChoice);
     LM.getInstance().writeLog("Action [%s] taken", choiceChosen);
 }

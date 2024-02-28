@@ -3,11 +3,14 @@
 
 #include <string>
 
+#define CM ChoiceManager::getInstance()
+
 class ChoiceManager {
 private:
     static ChoiceManager* instance;
     std::string choices[160];
     ChoiceManager();
+    int seed;
 
 
 public:

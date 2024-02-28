@@ -1,1 +1,28 @@
 Message -> There is no sprite to set for this Day
+Message -> ChoiceIndex: 2
+Message -> cString: @5Ðe
+Message -> ChoiceIndex: 2
+Message -> cString: à5Ðe
+Message -> ChoiceIndex: 2
+Message -> cString: Ð5Ðe
+Message -> ChoiceIndex: 2
+Message -> cString: 
+Message -> ChoiceIndex: 159
+Message -> cString: @-5Ðe
+Message -> ChoiceIndex: 159
+Message -> cString: @(5Ðe
+Message -> ChoiceIndex: 159
+Message -> cString: @-5Ðe
+Message -> ChoiceIndex: 159
+Message -> cString: P65Ðe
+Message -> Day: 21
+Message -> ChoiceIndex: 159
+Message -> Action [@25Ðe] takenMessage -> ChoiceIndex: 156
+Message -> cString: ÀC5Ðe
+Message -> ChoiceIndex: 156
+Message -> cString: °D5Ðe
+Message -> ChoiceIndex: 156
+Message -> cString: @F5Ðe
+Message -> ChoiceIndex: 156
+Message -> cString: €G5Ðe
+Message -> Day: 20
