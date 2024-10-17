@@ -1,0 +1,45 @@
+﻿  Choice.cpp
+  ChoiceManager.cpp
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\ChoiceManager.cpp(12,20): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\ChoiceManager.cpp(39,22): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\ChoiceManager.cpp(40,24): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  DisplayManager.cpp
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(97,37): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(99,38): warning C4244: 'argument': conversion from 'float' to 'unsigned int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(197,11): warning C4305: 'return': truncation from 'int' to 'bool'
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(230,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(231,13): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(239,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\DisplayManager.cpp(240,14): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  Frame.cpp
+  GameManager.cpp
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\GameManager.cpp(32,58): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\GameManager.cpp(33,54): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  GameStart.cpp
+  InputManager.cpp
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\InputManager.cpp(480,59): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\InputManager.cpp(480,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  LegacyResults.cpp
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\format(42): warning STL4038: The contents of <format> are available only with C++20 or later.
+  PointsManager.cpp
+  Prompt.cpp
+  TestObject.cpp
+  TestPoints.cpp
+  TestReticle.cpp
+  TestStar.cpp
+  ViewObject.cpp
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\ViewObject.cpp(39,16): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  WorldManager.cpp
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(62,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(64,38): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(69,8): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(71,36): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(76,25): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(76,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Ben\source\repos\Dragonfly\Dragonfly\WorldManager.cpp(83,18): warning C4553: '==': result of expression not used; did you intend '='?
+  Generating code
+  298 of 1040 functions (28.7%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    3 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Dragonfly.vcxproj -> C:\Users\Ben\source\repos\Dragonfly\x64\Release\Dragonfly.exe

@@ -1,4 +1,7 @@
 #include "PointsManager.h"
+#include "TitleManager.h"
+#include "LogManager.h"
+
 
 PointsManager::PointsManager() : kindness(0), cruelty(0), peacefulness(0), violence(0) {}
 
@@ -24,6 +27,13 @@ void PointsManager::setAllValues(int kindnessVal, int crueltyVal, int peacefulne
     violence = violenceVal;
 }
 
+std::string PointsManager::getFinalResult() {
+    int values[4] = { getKindness(), getCruelty(), getPeacefulness(), getViolence() };
+    LM.getInstance().writeLog("\n\tFinal results: %d %d %d %d", values[0], values[1], values[2], values[3]);
+    return TitleManager::getTitle(values, 4);
+}
+
+
 std::string PointsManager::getHighestValueString() const {
     int maxVal = std::max({ kindness, cruelty, peacefulness, violence });
     if (maxVal == kindness)
@@ -47,7 +57,9 @@ void PointsManager::readValuesFromFile(int lineNumber) {
     std::ifstream file(filename);
     std::string line;
 
-    // Skipping lines until we reach the desired line number
+    // LM.getInstance().writeLog("PointsManager: Reading values from line number %d\n",lineNumber);
+
+     // Skipping lines until we reach the desired line number
     for (int i = 1; i < lineNumber; ++i) {
         if (!std::getline(file, line)) {
             return;
@@ -56,17 +68,25 @@ void PointsManager::readValuesFromFile(int lineNumber) {
 
     // Read the values from the desired line
     if (std::getline(file, line)) {
+
         std::stringstream ss(line);
         std::string token;
         std::vector<int> values;
+        //LM.getInstance().writeLog("PointsManager: Caught getline with line: %s\n", line);
 
         while (std::getline(ss, token, ',')) {
+            LM.getInstance().writeLog("\t\tPointsManager: Token Added: %d\n", std::stoi(token));
             values.push_back(std::stoi(token));
         }
+        //
+               // LM.getInstance().writeLog("PointsManager: Read a set of values of size %d", values.size());
+
+                //LM.getInstance().writeLog("PointsManager: PUSHING THE FOLLOWING CHANGES: %d,%d,%d,%d", values[0], values[1], values[2], values[3]);
+        increaseValues(lineNumber, values[0], values[1], values[2], values[3]);
 
         // Assuming there are exactly 4 values in the line
         if (values.size() == 4) {
-            increaseValues(lineNumber, values[0], values[1], values[2], values[3]);
+
         }
     }
 }

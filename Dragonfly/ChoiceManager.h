@@ -2,23 +2,21 @@
 #define CHOICE_MANAGER_H
 
 #include <string>
+#include <vector>
 
 #define CM ChoiceManager::getInstance()
 
 class ChoiceManager {
 private:
     static ChoiceManager* instance;
-    std::string choices[160];
+    std::vector<std::string> choices;
     ChoiceManager();
-    int seed;
-
 
 public:
     static ChoiceManager* getInstance();
     void loadChoicesFromFile(const std::string& filename);
-    int* getChoicesForDay(int day);
-    std::string* getChoicesStringsForDay(int day);
-    void processChoice(std::string choiceChosen);
+    std::vector<std::string> getChoicesForDay(int day);
+    void processChoice(const std::string& choiceChosen);
 };
 
 #endif

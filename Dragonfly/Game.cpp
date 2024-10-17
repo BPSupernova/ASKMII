@@ -38,21 +38,21 @@ int main(int argc, char* argv[]) {
 
 // Load resources (sprites, sound effects, music).
 void loadResources(void) {
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/gamestart-spr.txt", "start screen"); 
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/21-ExplodingTVSprite.txt", "temp");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/earth-spr.txt", "man");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/observeman-spr.txt", "smileman");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/creepysmileman-spr.txt", "creepsmileman");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/evilman-spr.txt", "evilman");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/clock-spr.txt", "clock");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/cloud-spr.txt", "cloud");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/mushroomcloud-spr.txt", "mushroom cloud");
-    RM.loadSprite("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sprites/tombstone-spr.txt", "tombstone");
+    RM.loadSprite("sprites/gamestart-spr.txt", "start screen");
+    RM.loadSprite("sprites/21-ExplodingTVSprite.txt", "temp");
+    RM.loadSprite("sprites/earth-spr.txt", "man");
+    RM.loadSprite("sprites/observeman-spr.txt", "smileman");
+    RM.loadSprite("sprites/creepysmileman-spr.txt", "creepsmileman");
+    RM.loadSprite("sprites/evilman-spr.txt", "evilman");
+    RM.loadSprite("sprites/clock-spr.txt", "clock");
+    RM.loadSprite("sprites/cloud-spr.txt", "cloud");
+    RM.loadSprite("sprites/mushroomcloud-spr.txt", "mushroom cloud");
+    RM.loadSprite("sprites/tombstone-spr.txt", "tombstone");
 
-    RM.loadSound("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/mixkit-skateboard-idle-movement-3094.mp3", "day transition"); 
-    RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/for-elevator-jazz-music-124005.mp3", "start music");
-    RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/glass-of-wine-143532.mp3", "glass 'o wine");
-    RM.loadMusic("C:/Users/Ben/source/repos/dragonfly/Dragonfly/sounds/legacy-of-handel-legendary-passacaglia-background-music-25-second-191894.mp3", "end music");
+    RM.loadSound("sounds/mixkit-skateboard-idle-movement-3094.mp3", "day transition");
+    RM.loadMusic("sounds/for-elevator-jazz-music-124005.mp3", "start music");
+    RM.loadMusic("sounds/glass-of-wine-143532.mp3", "glass 'o wine");
+    RM.loadMusic("sounds/legacy-of-handel-legendary-passacaglia-background-music-25-second-191894.mp3", "end music");
 }
 
 // Populate world with some objects.

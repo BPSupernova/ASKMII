@@ -322,5 +322,90 @@
     <Text Include="..\..\..\..\OutputAtReady.txt">
       <Filter>Resource Files</Filter>
     </Text>
+    <Text Include="x64\sounds\README.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\21-ExplodingTVSprite.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\bullet-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\clock-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\cloud-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\creepysmileman-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\earth-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\evilman-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\explosion-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\gameover-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\gamestart-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\mushroomcloud-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\observeman-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\saucer-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\ship-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+    <Text Include="x64\sprites\tombstone-spr.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="x64\sounds\explode.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\fire.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\for-elevator-jazz-music-124005.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\game-over.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\glass-of-wine-143532.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\legacy-of-handel-legendary-passacaglia-background-music-25-second-191894.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\mixkit-skateboard-idle-movement-3094.mp3">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\mixkit-skateboard-idle-movement-3094.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\nuke.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+    <Media Include="x64\sounds\start-music.wav">
+      <Filter>Resource Files</Filter>
+    </Media>
+  </ItemGroup>
+  <ItemGroup>
+    <Font Include="..\df-font.ttf">
+      <Filter>Resource Files</Filter>
+    </Font>
   </ItemGroup>
 </Project>

@@ -6,6 +6,9 @@
 #include <sstream>
 #include <vector>
 #include <algorithm>
+#include <string>
+
+
 
 class PointsManager {
 private:
@@ -35,6 +38,8 @@ public:
 
     void increaseValues(int lineNumber, int k, int c, int p, int v);
     void readValuesFromFile(int lineNumber);
+
+    std::string getFinalResult();
 };
 
 #endif

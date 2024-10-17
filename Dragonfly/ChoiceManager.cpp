@@ -9,13 +9,7 @@
 ChoiceManager* ChoiceManager::instance = nullptr;
 
 ChoiceManager::ChoiceManager() {
-    for (int i = 0; i < 160; i++) {
-        choices[i] = "";
-    }
-
-    loadChoicesFromFile("choices.txt");
     std::srand(time(0));
-    seed = std::rand() % 100000;
 }
 
 ChoiceManager* ChoiceManager::getInstance() {
@@ -28,11 +22,9 @@ ChoiceManager* ChoiceManager::getInstance() {
 void ChoiceManager::loadChoicesFromFile(const std::string& filename) {
     std::ifstream file(filename);
     std::string choice;
-    int index = 0;
     if (file.is_open()) {
-        while (std::getline(file, choice) && index < 160) {
-            choices[index] = choice;
-            index++;
+        while (std::getline(file, choice)) {
+            choices.push_back(choice);
         }
         file.close();
     }
@@ -41,36 +33,22 @@ void ChoiceManager::loadChoicesFromFile(const std::string& filename) {
     }
 }
 
-int* ChoiceManager::getChoicesForDay(int day) {
+std::vector<std::string> ChoiceManager::getChoicesForDay(int day) {
 
-    std::srand(seed + day);
-
-    int* dayChoices = new int[4];
-    int totalChoices = 160;
+    std::vector<std::string> dayChoices;
+    int totalChoices = choices.size();
+    std::srand(time(0) + day); // Seed with day to get different choices each day
 
     for (int i = 0; i < 4; ++i) {
-        int randomIndex = (std::rand() + i) % totalChoices;
-        dayChoices[i] = randomIndex;
+        int randomIndex = std::rand() % totalChoices;
+        dayChoices.push_back(choices[randomIndex]);
     }
 
     return dayChoices;
 }
 
-std::string* ChoiceManager::getChoicesStringsForDay(int day) {
 
-    int* choiceIndex = getChoicesForDay(day);
-    LM.getInstance().writeLog("ChoiceIndex: %d\n", choiceIndex[0]);
-
-    std::string* dayChoices = new std::string[4];
-
-    for (int i = 0; i < 4; i++) {
-        dayChoices[i] = choices[choiceIndex[i]];
-    }
-
-    return dayChoices;
-}
-
-void ChoiceManager::processChoice(std::string choiceChosen) { 
+void ChoiceManager::processChoice(const std::string& choiceChosen) {
     int fullChoice = 0;
     for (int i = 0; i < 160; i++) {
         if (choices[i] == choiceChosen) {

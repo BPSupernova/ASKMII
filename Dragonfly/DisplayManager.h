@@ -22,11 +22,11 @@ namespace df {
 	const int WINDOW_STYLE_DEFAULT = sf::Style::Titlebar;
 	const sf::Color WINDOW_BACKGROUND_COLOR_DEFAULT = sf::Color::Black;
 	const std::string WINDOW_TITLE_DEFAULT = " Dragonfly";
-	const std::string FONT_FILE_DEFAULT = "C:/Users/Ben/source/repos/dragonfly/df-font.ttf";
+	const std::string FONT_FILE_DEFAULT = "df-font.ttf";
 
 	enum Justification { // Centers a string to the left, right, or center of their x,y position
 		LEFT_JUSTIFIED,
-		CENTER_JUSTIFIED, 
+		CENTER_JUSTIFIED,
 		RIGHT_JUSTIFIED,
 	};
 
@@ -48,12 +48,12 @@ namespace df {
 
 		int startUp(); // Opens the graphics window, ready for text-based display; Returns 0 upon success, -1 otherwise
 		void shutDown(); // Closes the graphics window
-	
+
 		// Draws a character at window location (x,y) w/color; Return 0 upon success; -1 otherwise
-		int drawChar(Vector2D world_pos, char ch, Color color) const; 
+		int drawChar(Vector2D world_pos, char ch, Color color) const;
 
 		//Draws a string at window location (x,y) with the default color; justified to the left, right, or center; Return 0 upon success, -1 otherwise
-		int drawString(Vector2D world_pos, std::string str, Justification just, Color color) const;  
+		int drawString(Vector2D world_pos, std::string str, Justification just, Color color) const;
 
 		int getHorizontal() const; // Return window's horizontal maximum (in characters)
 		int getVertical() const; // Return window's vertical maximum (in characters)

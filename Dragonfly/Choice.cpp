@@ -2,6 +2,7 @@
 #include "ChoiceManager.h"
 #include "LogManager.h"
 #include "DisplayManager.h"
+#include <vector> 
 
 Choice::Choice() {
     setLocation(df::BOTTOM_LEFT);
@@ -11,10 +12,15 @@ Choice::Choice() {
 }
 
 void Choice::setChoiceString(int day, int choiceNum) {
-    std::string *stringChoices = ChoiceManager::getInstance()->getChoicesStringsForDay(day);
-    std::string cString = stringChoices[1];
-    LM.getInstance().writeLog("cString: %s\n", cString);
-    setViewString(cString);
+    std::vector<std::string> stringChoices = ChoiceManager::getInstance()->getChoicesForDay(day);
+    if (choiceNum < stringChoices.size()) {
+        choiceString = stringChoices[choiceNum];
+        LM.getInstance().writeLog("Choice String: %s\n", choiceString.c_str());
+        setViewString(choiceString);
+    }
+    else {
+        LM.getInstance().writeLog("Error: Choice number out of range for day %d\n", day);
+    }
 }
 
 int Choice::eventHandler(const df::Event* p_e) {

@@ -124,10 +124,10 @@ int Day::eventHandler(const df::Event* p_e) {
     }
 }
 
-void Day::makeChoice(int code) { 
+void Day::makeChoice(int code) {
     // 0-3 Top circular to left
-
-    ChoiceManager::getInstance()->processChoice(ChoiceManager::getInstance()->getChoicesStringsForDay(day_index)[code]);
+    std::string choiceMade = ChoiceManager::getInstance()->getChoicesForDay(day_index).at(code);
+    ChoiceManager::getInstance()->processChoice(choiceMade);
     p_music->pause();
     WM.getInstance().MarkForDelete(this);
 }
@@ -205,18 +205,16 @@ void Day::startDay() {
     left_choice.setPosition(this->getPosition() + df::Vector2D(0, -6.5));
     right_choice.setPosition(this->getPosition() + df::Vector2D(0, 6));
 
-    int* choice_set = new int[4];
-    choice_set = ChoiceManager::getInstance()->getChoicesForDay(day_index); 
+    std::vector<std::string> choiceList = ChoiceManager::getInstance()->getChoicesForDay(day_index);
 
-    printf("First String: %d\n", choice_set[0]);
-    printf("Second String: %d\n", choice_set[1]);
 
-    if (choice_set[0] > 156) { choice_set[0] -= 4; }
+    //printf("First String: %s\n", choiceList.at(0));
+    //printf("Second String: %s\n", choiceList.at(1));
 
-    top_choice.setChoiceString(day_index, choice_set[0]);
-    bottom_choice.setChoiceString(day_index, choice_set[2] + 1);
-    left_choice.setChoiceString(day_index, choice_set[3] + 2); 
-    right_choice.setChoiceString(day_index, choice_set[1] + 3);
+    top_choice.setChoiceString(day_index, 0);
+    bottom_choice.setChoiceString(day_index, 2);
+    left_choice.setChoiceString(day_index, 1);
+    right_choice.setChoiceString(day_index, 3);
 
     setTopChoice(top_choice);
     setBottomChoice(bottom_choice);

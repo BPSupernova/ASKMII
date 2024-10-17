@@ -2,11 +2,17 @@
 #include "GameManager.h"
 #include "DisplayManager.h"
 #include "LegacyResults.h"
+#include "PointsManager.h"
+#include <format>
 
 // Want to end game after results are shown and encourage them to play again
 
 LegacyResults::LegacyResults() {
-    setViewString("You Died As An Average Joe!");
+
+    std::string finalString = PointsManager::getInstance().getFinalResult();
+
+    setViewString(("You Died As " + finalString));
+
     setLocation(df::CENTER_CENTER);
     setColor(df::MAGENTA);
     setPosition(df::Vector2D(this->getPosition().getX(), this->getPosition().getY() + 2));
@@ -40,14 +46,14 @@ int LegacyResults::eventHandler(const df::Event* p_e) {
             case df::Keyboard::Q: // Quit
                 GM.setGameOver();
                 break;
-            
+
             default:
                 break;
             }
         return 1;
     }
-	
-	return 0;
+
+    return 0;
 }
 
 int LegacyResults::draw() {

@@ -1,0 +1,196 @@
+Message -> There is no sprite to set for this Day
+Message -> Choice String: Take a photo of something beautiful.
+Message -> Choice String: Play pranks that may hurt others' feelings.
+Message -> Choice String: Go for a morning walk.
+Message -> Choice String: Watch funny videos to lift your mood.
+Message -> Choice String: Volunteer at a local charity.
+Message -> Choice String: Take pleasure in others' misfortunes.
+Message -> Choice String: Contribute to pollution by littering.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Day: 21
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [`°Œ,c] takenMessage -> Choice String: Take a photo of something beautiful.
+Message -> Choice String: Play pranks that may hurt others' feelings.
+Message -> Choice String: Go for a morning walk.
+Message -> Choice String: Watch funny videos to lift your mood.
+Message -> Day: 20
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [ Ù—,c] takenMessage -> Choice String: Volunteer at a local charity.
+Message -> Choice String: Take pleasure in others' misfortunes.
+Message -> Choice String: Contribute to pollution by littering.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Day: 19
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [ ¯Œ,c] takenMessage -> Choice String: Leave hateful comments on social media.
+Message -> Choice String: Dismiss someone's feelings as unimportant.
+Message -> Choice String: Purposely break someone's trust.
+Message -> Choice String: Be intentionally uncooperative in group settings.
+Message -> Day: 18
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [Pë•,c] takenMessage -> Choice String: Take a class or workshop on something that interests you.
+Message -> Choice String: Cut in line and disregard others' waiting time.
+Message -> Choice String: Watch the sunrise or sunset.
+Message -> Choice String: Explore nature in your local area.
+Message -> Day: 17
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [°ï•,c] takenMessage -> Choice String: Spread rumors about someone to damage their reputation.
+Message -> Choice String: Donate to a charity.
+Message -> Choice String: Write in a journal.
+Message -> Choice String: Mock people's beliefs or values.
+Message -> Day: 16
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [ »Œ,c] takenMessage -> Choice String: Spread rumors about someone to damage their reputation.
+Message -> Choice String: Donate to a charity.
+Message -> Choice String: Write in a journal.
+Message -> Choice String: Mock people's beliefs or values.
+Message -> Day: 15
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 3
+Message -> Action [Pä–,c] takenMessage -> Choice String: Play mind games with people's emotions.
+Message -> Choice String: Listen to a podcast on a topic you're curious about.
+Message -> Choice String: Go stargazing.
+Message -> Choice String: Watch a comedy show.
+Message -> Day: 14
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [ğõ•,c] takenMessage -> Choice String: Take a power nap.
+Message -> Choice String: Take a bubble bath.
+Message -> Choice String: Leave hateful comments on social media.
+Message -> Choice String: Learn a new recipe.
+Message -> Day: 13
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [] takenMessage -> Choice String: Be intentionally uncooperative in group settings.
+Message -> Choice String: Watch a comedy show.
+Message -> Choice String: Take pleasure in others' misfortunes.
+Message -> Choice String: Spread fear or panic by exaggerating stories.
+Message -> Day: 12
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [ Œ,c] takenMessage -> Choice String: Hold grudges and refuse to forgive.
+Message -> Choice String: Go for a morning walk.
+Message -> Choice String: Plan a future vacation.
+Message -> Choice String: Watch the sunrise or sunset.
+Message -> Day: 11
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [ ˆŒ,c] takenMessage -> Choice String: Take a technology-free hour.
+Message -> Choice String: Listen to a podcast on a topic you're curious about.
+Message -> Choice String: Write a letter to someone you admire.
+Message -> Choice String: Try a new type of cuisine.
+Message -> Day: 10
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [] takenMessage -> Choice String: Sabotage someone else's efforts out of jealousy.
+Message -> Choice String: Spread rumors about someone to damage their reputation.
+Message -> Choice String: Watch funny videos to lift your mood.
+Message -> Choice String: Lie to get out of trouble.
+Message -> Day: 9
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [à‹Œ,c] takenMessage -> Choice String: Listen to a podcast on a topic you're curious about.
+Message -> Choice String: Leave hurtful messages or comments anonymously.
+Message -> Choice String: Mock people's beliefs or values.
+Message -> Choice String: Write down your short-term goals.
+Message -> Day: 8
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [ğğ•,c] takenMessage -> Choice String: Listen to a podcast on a topic you're curious about.
+Message -> Choice String: Leave hurtful messages or comments anonymously.
+Message -> Choice String: Mock people's beliefs or values.
+Message -> Choice String: Write down your short-term goals.
+Message -> Day: 7
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [`®š,c] takenMessage -> Choice String: Plant a tree or flower.
+Message -> Choice String: Listen to angry music that fuels negative emotions.
+Message -> Choice String: Lie to get out of trouble.
+Message -> Choice String: Practice deep breathing exercises.
+Message -> Day: 6
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [´’,c] takenMessage -> Choice String: Be sarcastic and dismissive towards others' opinions.
+Message -> Choice String: Spread false information knowingly.
+Message -> Choice String: Write down your favorite quotes and why they inspire you.
+Message -> Choice String: Mock people's physical appearance or disabilities.
+Message -> Day: 5
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [`ï•,c] takenMessage -> Choice String: Do something creative, like drawing or painting.
+Message -> Choice String: Spread rumors about someone to damage their reputation.
+Message -> Choice String: Practice a musical instrument.
+Message -> Choice String: Write down your favorite quotes and why they inspire you.
+Message -> Day: 4
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [€)“,c] takenMessage -> Choice String: Disregard rules and regulations that are in place for safety.
+Message -> Choice String: Leave hurtful messages or comments anonymously.
+Message -> Choice String: Practice forgiveness.
+Message -> Choice String: Go for a bike ride.
+Message -> Day: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [`Äš,c] takenMessage -> Choice String: Ignore environmental conservation practices.
+Message -> Choice String: Listen to your favorite song.
+Message -> Choice String: Ignore messages or calls from loved ones.
+Message -> Choice String: Purposely exclude someone from group activities.
+Message -> Day: 2
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [à2“,c] takenMessage -> Choice String: Ignore environmental conservation practices.
+Message -> Choice String: Listen to your favorite song.
+Message -> Choice String: Ignore messages or calls from loved ones.
+Message -> Choice String: Purposely exclude someone from group activities.
+Message -> Day: 1
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [ Èš,c] takenMessage -> 
+	Final results: 48 45 49 41

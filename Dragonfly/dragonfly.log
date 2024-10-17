@@ -1,220 +1,196 @@
 Message -> There is no sprite to set for this Day
-Message -> ChoiceIndex: 149
-Message -> cString: €y®·ç
-Message -> ChoiceIndex: 149
-Message -> cString:  ‹®·ç
-Message -> ChoiceIndex: 149
-Message -> cString: p®·ç
-Message -> ChoiceIndex: 149
-Message -> cString: ğ†®·ç
-Message -> ChoiceIndex: 146
-Message -> cString:  ‰®·ç
-Message -> ChoiceIndex: 146
-Message -> cString: 0ˆ®·ç
-Message -> ChoiceIndex: 146
-Message -> cString: °®·ç
-Message -> ChoiceIndex: 146
-Message -> cString: @ ®·ç
+Message -> Choice String: Meditate for 10 minutes.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Choice String: Attend a live performance or concert.
+Message -> Choice String: Be disrespectful to authority figures.
+Message -> Choice String: Dismiss someone's feelings as unimportant.
+Message -> Choice String: Spend money impulsively on things you don't need.
+Message -> Choice String: Do a good deed anonymously.
+Message -> Choice String: Take a photo of something beautiful.
 Message -> Day: 21
-Message -> ChoiceIndex: 146
-Message -> Action [€j®·ç] takenMessage -> ChoiceIndex: 143
-Message -> cString:  ¤®·ç
-Message -> ChoiceIndex: 143
-Message -> cString: `£®·ç
-Message -> ChoiceIndex: 143
-Message -> cString: 
-Message -> ChoiceIndex: 143
-Message -> cString: P¤®·ç
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [0Ğ>–] takenMessage -> Choice String: Engage in gossip and spread rumors.
+Message -> Choice String: Read a chapter of a book.
+Message -> Choice String: Cook a homemade meal from scratch.
+Message -> Choice String: Listen to a podcast on a topic you're curious about.
 Message -> Day: 20
-Message -> ChoiceIndex: 143
-Message -> Action [ğr®·ç] takenMessage -> ChoiceIndex: 140
-Message -> cString: °­®·ç
-Message -> ChoiceIndex: 140
-Message -> cString: p¶®·ç
-Message -> ChoiceIndex: 140
-Message -> cString: ¥®·ç
-Message -> ChoiceIndex: 140
-Message -> cString: 0¦®·ç
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [0BĞ>–] takenMessage -> Choice String: Engage in gossip and spread rumors.
+Message -> Choice String: Read a chapter of a book.
+Message -> Choice String: Cook a homemade meal from scratch.
+Message -> Choice String: Listen to a podcast on a topic you're curious about.
 Message -> Day: 19
-Message -> ChoiceIndex: 140
-Message -> Action [`®·ç] takenMessage -> ChoiceIndex: 136
-Message -> cString: P½®·ç
-Message -> ChoiceIndex: 136
-Message -> cString:  Â®·ç
-Message -> ChoiceIndex: 136
-Message -> cString: 
-Message -> ChoiceIndex: 136
-Message -> cString:  À®·ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [P@Ğ>–] takenMessage -> Choice String: Go for a morning walk.
+Message -> Choice String: Take a technology-free hour.
+Message -> Choice String: Hold grudges and refuse to forgive.
+Message -> Choice String: Mock someone's insecurities.
 Message -> Day: 18
-Message -> ChoiceIndex: 136
-Message -> Action [`v®·ç] takenMessage -> ChoiceIndex: 133
-Message -> cString:  Ì®·ç
-Message -> ChoiceIndex: 133
-Message -> cString:  ½®·ç
-Message -> ChoiceIndex: 133
-Message -> cString: PÂ®·ç
-Message -> ChoiceIndex: 133
-Message -> cString: Ã®·ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [IĞ>–] takenMessage -> Choice String: Snap at someone for no reason.
+Message -> Choice String: Leave hateful comments on social media.
+Message -> Choice String: Leave tasks unfinished and make excuses for not completing them.
+Message -> Choice String: Smile at strangers.
 Message -> Day: 17
-Message -> ChoiceIndex: 133
-Message -> Action [ Ÿ®·ç] takenMessage -> ChoiceIndex: 130
-Message -> cString:  Ù®·ç
-Message -> ChoiceIndex: 130
-Message -> cString: @Ü®·ç
-Message -> ChoiceIndex: 130
-Message -> cString: PÑ®·ç
-Message -> ChoiceIndex: 130
-Message -> cString: `ß®·ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [ğEĞ>–] takenMessage -> Choice String: Snap at someone for no reason.
+Message -> Choice String: Leave hateful comments on social media.
+Message -> Choice String: Leave tasks unfinished and make excuses for not completing them.
+Message -> Choice String: Smile at strangers.
 Message -> Day: 16
-Message -> ChoiceIndex: 130
-Message -> Action [‡®·ç] takenMessage -> ChoiceIndex: 127
-Message -> cString: °Ğ®·ç
-Message -> ChoiceIndex: 127
-Message -> cString: °Ú®·ç
-Message -> ChoiceIndex: 127
-Message -> cString: €İ®·ç
-Message -> ChoiceIndex: 127
-Message -> cString: pè®·ç
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [?Ğ>–] takenMessage -> Choice String: Write down three things you're grateful for.
+Message -> Choice String: Disregard safety protocols for personal convenience.
+Message -> Choice String: Cut in line and disregard others' waiting time.
+Message -> Choice String: Send a care package to someone you know.
 Message -> Day: 15
-Message -> ChoiceIndex: 127
-Message -> Action [ğ®®·ç] takenMessage -> ChoiceIndex: 123
-Message -> cString: Àz·ç
-Message -> ChoiceIndex: 123
-Message -> cString: àz·ç
-Message -> ChoiceIndex: 123
-Message -> cString: àz·ç
-Message -> ChoiceIndex: 123
-Message -> cString: Pz·ç
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [] takenMessage -> Choice String: Meditate for 10 minutes.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Choice String: Attend a live performance or concert.
+Message -> Choice String: Be disrespectful to authority figures.
 Message -> Day: 14
-Message -> ChoiceIndex: 123
-Message -> Action [0z·ç] takenMessage -> ChoiceIndex: 120
-Message -> cString: Ğ¼··ç
-Message -> ChoiceIndex: 120
-Message -> cString: ¹··ç
-Message -> ChoiceIndex: 120
-Message -> cString: ğµ··ç
-Message -> ChoiceIndex: 120
-Message -> cString: ¾··ç
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [?Ğ>–] takenMessage -> Choice String: Meditate for 10 minutes.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Choice String: Attend a live performance or concert.
+Message -> Choice String: Be disrespectful to authority figures.
 Message -> Day: 13
-Message -> ChoiceIndex: 120
-Message -> Action [¶··ç] takenMessage -> ChoiceIndex: 117
-Message -> cString: 0Õ··ç
-Message -> ChoiceIndex: 117
-Message -> cString:  Ç··ç
-Message -> ChoiceIndex: 117
-Message -> cString: €Ë··ç
-Message -> ChoiceIndex: 117
-Message -> cString:  Ó··ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [0LĞ>–] takenMessage -> Choice String: Dismiss someone's feelings as unimportant.
+Message -> Choice String: Spend money impulsively on things you don't need.
+Message -> Choice String: Do a good deed anonymously.
+Message -> Choice String: Take a photo of something beautiful.
 Message -> Day: 12
-Message -> ChoiceIndex: 117
-Message -> Action [`¾··ç] takenMessage -> ChoiceIndex: 114
-Message -> cString: 0£··ç
-Message -> ChoiceIndex: 114
-Message -> cString: p®··ç
-Message -> ChoiceIndex: 114
-Message -> cString: P«··ç
-Message -> ChoiceIndex: 114
-Message -> cString: à§··ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [ğ@Ğ>–] takenMessage -> Choice String: Make a homemade gift for a friend.
+Message -> Choice String: Leave hateful comments on social media.
+Message -> Choice String: Leave a mess behind without cleaning up.
+Message -> Choice String: Compliment someone sincerely.
 Message -> Day: 11
-Message -> ChoiceIndex: 114
-Message -> Action [ĞÁ··ç] takenMessage -> ChoiceIndex: 110
-Message -> cString:  ¡··ç
-Message -> ChoiceIndex: 110
-Message -> cString: €­··ç
-Message -> ChoiceIndex: 110
-Message -> cString: 0¨··ç
-Message -> ChoiceIndex: 110
-Message -> cString: P«··ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [0VĞ>–] takenMessage -> Choice String: Make a homemade gift for a friend.
+Message -> Choice String: Leave hateful comments on social media.
+Message -> Choice String: Leave a mess behind without cleaning up.
+Message -> Choice String: Compliment someone sincerely.
 Message -> Day: 10
-Message -> ChoiceIndex: 110
-Message -> Action [Ğ¦®·ç] takenMessage -> ChoiceIndex: 107
-Message -> cString:  Ø··ç
-Message -> ChoiceIndex: 107
-Message -> cString: 
-Message -> ChoiceIndex: 107
-Message -> cString: Ü··ç
-Message -> ChoiceIndex: 107
-Message -> cString: P«··ç
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [@PĞ>–] takenMessage -> Choice String: Laugh at someone's failures or misfortunes.
+Message -> Choice String: Attend a live performance or concert.
+Message -> Choice String: Skip breakfast and grab a sugary snack instead.
+Message -> Choice String: Disrupt peaceful environments with unnecessary noise or disturbances.
 Message -> Day: 9
-Message -> ChoiceIndex: 107
-Message -> Action [À¸··ç] takenMessage -> ChoiceIndex: 104
-Message -> cString: ÀŠ¸·ç
-Message -> ChoiceIndex: 104
-Message -> cString: 
-Message -> ChoiceIndex: 104
-Message -> cString: `‹¸·ç
-Message -> ChoiceIndex: 104
-Message -> cString: ğ‘¸·ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [UĞ>–] takenMessage -> Choice String: Cut in line and disregard others' waiting time.
+Message -> Choice String: Call a friend or family member just to say hello.
+Message -> Choice String: Gaslight someone to make them doubt their reality.
+Message -> Choice String: Listen to your favorite song.
 Message -> Day: 8
-Message -> ChoiceIndex: 104
-Message -> Action [] takenMessage -> ChoiceIndex: 100
-Message -> cString: 
-Message -> ChoiceIndex: 100
-Message -> cString: ©¸·ç
-Message -> ChoiceIndex: 100
-Message -> cString: `Ÿ¸·ç
-Message -> ChoiceIndex: 100
-Message -> cString: ğ ¸·ç
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [Ğ[Ğ>–] takenMessage -> Choice String: Cut in line and disregard others' waiting time.
+Message -> Choice String: Call a friend or family member just to say hello.
+Message -> Choice String: Gaslight someone to make them doubt their reality.
+Message -> Choice String: Listen to your favorite song.
 Message -> Day: 7
-Message -> ChoiceIndex: 100
-Message -> Action [Ğ‰¸·ç] takenMessage -> ChoiceIndex: 97
-Message -> cString: @°¸·ç
-Message -> ChoiceIndex: 97
-Message -> cString: àº¸·ç
-Message -> ChoiceIndex: 97
-Message -> cString: à°¸·ç
-Message -> ChoiceIndex: 97
-Message -> cString: à°¸·ç
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 4
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [0LĞ>–] takenMessage -> Choice String: Explore nature in your local area.
+Message -> Choice String: Plan a future vacation.
+Message -> Choice String: Take a technology-free hour.
+Message -> Choice String: Take a technology-free hour.
 Message -> Day: 6
-Message -> ChoiceIndex: 97
-Message -> Action [€“¸·ç] takenMessage -> ChoiceIndex: 94
-Message -> cString: Ğ»¸·ç
-Message -> ChoiceIndex: 94
-Message -> cString:  È¸·ç
-Message -> ChoiceIndex: 94
-Message -> cString: pÆ¸·ç
-Message -> ChoiceIndex: 94
-Message -> cString: `Ì¸·ç
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 0
+Message -> Action [ĞLĞ>–] takenMessage -> Choice String: Contribute to pollution by littering.
+Message -> Choice String: Learn a new skill online.
+Message -> Choice String: Write a thank-you note to someone who has helped you.
+Message -> Choice String: Spread false information knowingly.
 Message -> Day: 5
-Message -> ChoiceIndex: 94
-Message -> Action [] takenMessage -> ChoiceIndex: 91
-Message -> cString: ÀÆ¸·ç
-Message -> ChoiceIndex: 91
-Message -> cString: P¾¸·ç
-Message -> ChoiceIndex: 91
-Message -> cString: 
-Message -> ChoiceIndex: 91
-Message -> cString: €À¸·ç
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [PhĞ>–] takenMessage -> Choice String: Spread false information knowingly.
+Message -> Choice String: Attend a live performance or concert.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Choice String: Donate to a charity.
 Message -> Day: 4
-Message -> ChoiceIndex: 91
-Message -> Action [ˆ¸·ç] takenMessage -> ChoiceIndex: 87
-Message -> cString: àâ¸·ç
-Message -> ChoiceIndex: 87
-Message -> cString: pß¸·ç
-Message -> ChoiceIndex: 87
-Message -> cString: Àß¸·ç
-Message -> ChoiceIndex: 87
-Message -> cString: å¸·ç
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 4
+Message -> Action [Ğ3Ğ>–] takenMessage -> Choice String: Spread false information knowingly.
+Message -> Choice String: Attend a live performance or concert.
+Message -> Choice String: Take credit for someone else's work.
+Message -> Choice String: Donate to a charity.
 Message -> Day: 3
-Message -> ChoiceIndex: 87
-Message -> Action [0¸·ç] takenMessage -> ChoiceIndex: 84
-Message -> cString: İ¸·ç
-Message -> ChoiceIndex: 84
-Message -> cString: Pá¸·ç
-Message -> ChoiceIndex: 84
-Message -> cString: Pá¸·ç
-Message -> ChoiceIndex: 84
-Message -> cString: °ê¸·ç
+Message -> 		PointsManager: Token Added: 5
+Message -> 		PointsManager: Token Added: 0
+Message -> 		PointsManager: Token Added: 2
+Message -> 		PointsManager: Token Added: 1
+Message -> Action [PhĞ>–] takenMessage -> Choice String: Watch the clouds go by.
+Message -> Choice String: Call a friend or family member just to say hello.
+Message -> Choice String: Spread fear or panic by exaggerating stories.
+Message -> Choice String: Write a letter to someone you admire.
 Message -> Day: 2
-Message -> ChoiceIndex: 84
-Message -> Action [€¢¸·ç] takenMessage -> ChoiceIndex: 81
-Message -> cString: Ğz¸·ç
-Message -> ChoiceIndex: 81
-Message -> cString: €¸·ç
-Message -> ChoiceIndex: 81
-Message -> cString: à~¸·ç
-Message -> ChoiceIndex: 81
-Message -> cString: pq¸·ç
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> Action [p\Ğ>–] takenMessage -> Choice String: Mock someone's insecurities.
+Message -> Choice String: Be disrespectful to authority figures.
+Message -> Choice String: Mock people's physical appearance or disabilities.
+Message -> Choice String: Play pranks that may hurt others' feelings.
 Message -> Day: 1
-Message -> ChoiceIndex: 81
-Message -> Action [Ğ¬¸·ç] taken
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> 		PointsManager: Token Added: 1
+Message -> 		PointsManager: Token Added: 3
+Message -> Action [°…Ğ>–] takenMessage -> 
+	Final results: 65 33 56 31
